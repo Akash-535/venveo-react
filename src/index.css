@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Sohne Schmal";
+    src:      url(../public/assets/fonts/TestSohneSchmal-Fett-BF663d89cadad5a.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Maison Neue";
+    src:      url(../public/assets/fonts/MaisonNeue-Light.otf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  body{
+    font-family: "Maison Neue" , sans-serif
+  }
+  .font-schmal{
+    font-family: "Sohne Schmal" , sans-serif;
+  }
