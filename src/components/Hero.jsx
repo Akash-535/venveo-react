@@ -35,7 +35,7 @@ const Hero = () => {
                     >
                         <input
                             type='text'
-                            placeholder='Enter Your Website'
+                            placeholder='Enter Your Website' required
                             className='bg-transparent w-full h-full py-[22px] sm:pl-[34.27px] max-sm:py-[22px] outline-none font-maisonBook text-[15px] leading-5 text-white text-opacity-40'
                         />
                         <button className='font-maisonDemi text-[15px] leading-5 text-white'>
