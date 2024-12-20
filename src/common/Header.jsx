@@ -16,7 +16,7 @@ const Header = () => {
     };
 
     return (
-        <div className="max-w-[1440px] mx-auto relative z-10">
+        <div className="max-w-[1920px] mx-auto relative z-10">
             <nav className="flex justify-between lg:items-start items-center pl-6 max-lg:px-4">
                 {/* Logo */}
                 <a href="/" className="pt-[30px] max-xl:pt-4">

@@ -1,0 +1,16 @@
+[debug] [2024-12-20T05:40:44.210Z] ----------------------------------------------------------------------
+[debug] [2024-12-20T05:40:44.213Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mohit\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-12-20T05:40:44.213Z] CLI Version:   13.29.1
+[debug] [2024-12-20T05:40:44.213Z] Platform:      win32
+[debug] [2024-12-20T05:40:44.213Z] Node Version:  v20.15.1
+[debug] [2024-12-20T05:40:44.213Z] Time:          Fri Dec 20 2024 11:10:44 GMT+0530 (India Standard Time)
+[debug] [2024-12-20T05:40:44.213Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-20T05:40:44.280Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-20T05:40:44.281Z] > authorizing via signed-in user (akashbish9e@gmail.com)
+[debug] [2024-12-20T05:40:44.281Z] [iam] checking project venveo-react-532c3 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-12-20T05:40:44.282Z] Checked if tokens are valid: true, expires at: 1734675499929
+[debug] [2024-12-20T05:40:44.282Z] Checked if tokens are valid: true, expires at: 1734675499929
+[debug] [2024-12-20T05:40:44.283Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/venveo-react-532c3:testIamPermissions [none]
+[debug] [2024-12-20T05:40:44.283Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/venveo-react-532c3:testIamPermissions x-goog-quota-user=projects/venveo-react-532c3
+[debug] [2024-12-20T05:40:44.283Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/venveo-react-532c3:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
