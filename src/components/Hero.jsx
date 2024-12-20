@@ -3,8 +3,8 @@ import Header from '../common/Header'
 
 const Hero = () => {
     return (
-        <div className='bg-ocean relative h-[869px] max-lg:h-[750px] max-md:h-[550px] max-sm:h-[640px]'>
-            <div className='max-w-[1440px] mx-auto'>
+        <div className='bg-ocean'>
+            <div className='max-w-[1920px] mx-auto relative h-[869px] max-lg:h-[750px] max-md:h-[550px] max-sm:h-[640px]'>
                 <div className='max-w-[1358px] mx-auto'>
                     <Header myClass='absolute top-0 right-0 ' />
                     <img src="./assets/images/left-vector.webp" alt="star1" className='h-[698px] max-md:w-[500px] max-md:h-[500px] max-sm:h-[261px] max-sm:w-[261px] max-sm:-left-[122px] max-sm:-top-4 bg-cover bg-no-repeat w-[698px] absolute -left-80 -top-[60px]' />
