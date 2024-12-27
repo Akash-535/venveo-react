@@ -12,3 +12,22 @@
         transform: translateX(0px); 
                 }
 }
+.featured-logos{
+    animation:slide-right  5s ease-in-out infinite;
+    }
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+    }
+@media (max-width:768px) {
+    @keyframes slide-right {
+    0% {
+      transform: translateX(10%);
+    }
+
+    100% {
+      transform: translateX(-70%);
+    }
+  }
+}

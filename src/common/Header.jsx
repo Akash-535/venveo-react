@@ -59,7 +59,7 @@ const Header = () => {
                                 <SearchIcon />
                             </button>
                         </form>
-                        <button className="lg:hidden py-7 bg-lemon-lime pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-sm leading-custom-xs header-button">Let’s Talk <ButtonArrow /></button>
+                        <button className="lg:hidden py-7 bg-lemon-lime pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-sm leading-custom-xs header-button text-black">Let’s Talk <ButtonArrow /></button>
                     </div>
                     <button className="max-lg:hidden bg-lemon-lime pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-sm leading-custom-xs header-button">Let’s Talk <ButtonArrow /></button>
                 </div>
