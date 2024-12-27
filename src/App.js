@@ -1,16 +1,16 @@
-import './App.css';
-import DigitalMarketing from './components/DigitalMarketing';
-import FeaturedLogos from './components/FeaturedLogos';
-import Hero from './components/Hero';
-import SatisfiedClient from './components/SatisfiedClient';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./App.css";
+import Home from "./view/Home";
+
 
 function App() {
   return (
     <>
-      <Hero />
-      <FeaturedLogos />
-      <SatisfiedClient />
-      <DigitalMarketing />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

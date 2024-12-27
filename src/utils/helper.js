@@ -126,3 +126,78 @@ export const DIGITAL_MARKETING_LIST = [
         button: "Explore SEO Services",
     }
 ]
+
+export const SMARTEST_LOGO_LIST = [
+    "./assets/images/home-depot-logo.webp",
+    "./assets/images/aia-logo.webp",
+    "./assets/images/lowes-logo.webp",
+    "./assets/images/risinger-logo.webp",
+    "./assets/images/houzz-logo.webp"
+]
+
+export const ACTUAL_SLIDER_LIST = [
+    {
+        image: "./assets/images/result-img-one.webp",
+        quote:
+            "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/images/result-img-two.webp",
+        quote:
+            "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/images/result-img-three.webp",
+        quote:
+            "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/images/result-img-one.webp",
+        quote:
+            "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/images/result-img-two.webp",
+        quote:
+            "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+    {
+        image: "./assets/images/result-img-three.webp",
+        quote:
+            "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "REGIONAL VP-SE AT US LBM",
+    },
+
+];
+
+export const THREE_CARDS_LIST = [
+    {
+        heading: "multi-channel marketing",
+        subHeading: "How to Get Your Product into Lowe's",
+        description: "Understanding the process and maximize the opportunities",
+        button: "Read More"
+    },
+    {
+        heading: "lead-gen",
+        subHeading: "Get Your Sales Team Ready for Digital Leads",
+        description: "unlock substantial business growth by enhancing collaboration skills and digital marketing expertise",
+        button: "Read More"
+    },
+    {
+        heading: "ecommerce",
+        subHeading: "How to Sell Building Materials Online",
+        description: "Explore how selling building materials online opens up wider audiences, efficient sales and insightful data,",
+        button: "Read More"
+    }
+]

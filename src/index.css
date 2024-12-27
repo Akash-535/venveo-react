@@ -1,45 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @font-face {
     font-family: "Sohne Schmal";
-    src:url(../public/assets/fonts/sohne-schmal-fett.woff2) format("truetype");
+    src:url('../public/assets/fonts/sohne-schmal-fett.woff2') format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: "Sohne Schmal";
-    src:url(../public/assets/fonts/soehne-schmal-dreiviertelfett.woff2) format("truetype");
+    src:url('../public/assets/fonts/soehne-schmal-dreiviertelfett.woff2') format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
    @font-face {
     font-family: "maisonLight";
-    src:url(../public/assets/fonts/maison-neue-light.woff2) format("truetype");
+    src:url('../public/assets/fonts/maison-neue-light.woff2') format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: "maisonMedium";
-    src:url(../public/assets/fonts/maison-neue-medium.woff2) format("truetype");
+    src:url('../public/assets/fonts/maison-neue-medium.woff2') format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: "maisonRegular";
-    src:url(../public/assets/fonts/maison-neue-regular.woff2) format("truetype");
+    src:url('../public/assets/fonts/maison-neue-regular.woff2') format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
   @font-face {
     font-family: "maisonBold";
-    src:url(../public/assets/fonts/maison-neue-bold.woff2) format("truetype");
+    src:url('../public/assets/fonts/maison-neue-bold.woff2') format("truetype");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
   }
+  body { font-family: 'Space Mono', monospace; }

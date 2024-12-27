@@ -6,7 +6,7 @@ import { ButtonArrowIcon } from '../utils/icons'
 
 const DigitalMarketing = () => {
     return (
-        <div className='pt-[132px]'>
+        <div className='pt-[132px] max-lg:pt-28 max-md:pt-20 max-sm:pt-16'>
             <div className='text-center max-w-[641px] mx-auto max-lg:px-4'>
                 <Discription text="Problems we solve." />
                 <div className='max-w-[439px] mx-auto pt-0.5 pb-5'>
@@ -14,7 +14,8 @@ const DigitalMarketing = () => {
                 </div>
                 <Discription textTwo="We help companies scale their strategies across multiple channels to drive more revenue, more quickly, without cutting corners." />
             </div>
-            <div>
+            <div className='relative'>
+                <img className='absolute w-full left-0 top-36 max-lg:top-4' src="./assets/images/digital-line.webp" alt="double-line" />
                 <div className="flex flex-wrap gap-x-[66px] gap-y-[57px] max-md:gap-6 justify-center pt-[88px] max-lg:pt-12 max-md:pt-10 max-sm:mx-4 max-w-[1440px] mx-auto">
                     {DIGITAL_MARKETING_LIST.map((obj, i) => (
                         <div

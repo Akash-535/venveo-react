@@ -30,7 +30,7 @@ const Header = () => {
                             <div key={index} className="relative">
                                 <button
                                     onClick={() => handleClick(index)}
-                                    className="hover:text-gray-600 transition-colors relative z-[51] duration-200 focus:outline-none"
+                                    className="hover:text-gray-600 transition-colors relative z-[51] duration-200 focus:outline-none font-maisonMedium"
                                 >
                                     {item.name}
                                 </button>
@@ -41,7 +41,7 @@ const Header = () => {
                                                 key={subIndex}
                                                 href="#"
                                                 onClick={() => setActiveIndex(null)}
-                                                className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200"
+                                                className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200 font-maisonMedium"
                                             >
                                                 {subItem}
                                             </a>
@@ -59,9 +59,9 @@ const Header = () => {
                                 <SearchIcon />
                             </button>
                         </form>
-                        <button className="lg:hidden py-7 bg-lemon-lime pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-sm leading-custom-xs header-button text-black">Let’s Talk <ButtonArrow /></button>
+                        <button className="lg:hidden py-7 bg-lemon-lime pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-sm leading-custom-xs button-arrow text-black">Let’s Talk <ButtonArrow /></button>
                     </div>
-                    <button className="max-lg:hidden bg-lemon-lime pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-sm leading-custom-xs header-button">Let’s Talk <ButtonArrow /></button>
+                    <button className="max-lg:hidden bg-lemon-lime pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-sm leading-custom-xs button-arrow">Let’s Talk <ButtonArrow /></button>
                 </div>
                 <div onClick={toggleSidebar} className='z-[15] flex-col gap-3 lg:hidden flex'>
                     <span className={`${open ? 'w-[31px] h-0.5 bg-white rotate-[-138deg] translate-y-[12.5px] duration-300 ease-linear rounded' : 'w-[31px] h-0.5 bg-white duration-300 ease-linear rounded'}`}></span>
