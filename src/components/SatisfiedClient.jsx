@@ -25,7 +25,7 @@ const SatisfiedClient = () => {
                             <div className='pt-6'>
                                 <Discription textTwo={obj.description} />
                             </div>
-                            <button className='pt-[52px] flex items-center gap-2 hover:gap-3 duration-300 ease-linear'>{obj.button}<ButtonArrowIcon /></button>
+                            <button className='pt-[52px] flex items-center gap-2 hover:gap-4 duration-300 ease-linear text-custom-sm leading-custom-xl font-maisonMedium'>{obj.button}<ButtonArrowIcon /></button>
                         </div>
                         <div className='flex justify-between pt-3 px-4'>
                             <div>

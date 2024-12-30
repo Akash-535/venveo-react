@@ -6,9 +6,9 @@ import { ButtonArrowIcon } from '../utils/icons'
 const ThreeCards = () => {
     const [showMore, setShowMore] = useState(false);
     const toggleShowMore = () => setShowMore((prev) => !prev);
-    const displayedCards = showMore ? THREE_CARDS_LIST : THREE_CARDS_LIST.slice(0, 1);
+    const displayedCards = showMore ? THREE_CARDS_LIST : THREE_CARDS_LIST.slice(0, 1 , 2);
     return (
-        <div className='py-[60px] max-w-[1440px] mx-auto max-lg:pt-10 max-md:pt-6 max-sm:pt-4'>
+        <div className='py-[60px] max-w-[1440px] mx-auto max-lg:pt-10 max-md:pt-6 max-sm:pt-4 max-md:pb-[50px]'>
             <div className='flex w-full justify-between max-xl:justify-center max-xl:flex-col max-xl:items-center max-xl:gap-7 max-lg:hidden'>
                 {THREE_CARDS_LIST.map((obj, i) => (
                     <div key={i} className={`bg-cover bg-no-repeat min-h-[551px] w-full max-w-[440px] p-7 flex items-end justify-center ${i === 0 ? "bg-multi-chanel" : i === 1 ? "bg-lead-gen" : "bg-ecommerce"}`}>

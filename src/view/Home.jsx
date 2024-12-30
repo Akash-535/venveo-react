@@ -8,6 +8,8 @@ import GrowthPartner from '../components/GrowthPartner'
 import ActualResult from '../components/ActualResult'
 import LearnFromUs from '../components/LearnFromUs'
 import ThreeCards from '../components/ThreeCards'
+import ReadyToHit from '../components/ReadyToHit'
+import Footer from '../components/Footer'
 
 const Home = () => {
     return (
@@ -21,6 +23,8 @@ const Home = () => {
             <ActualResult />
             <LearnFromUs />
             <ThreeCards />
+            <ReadyToHit/>
+            <Footer/>
         </>
     )
 }

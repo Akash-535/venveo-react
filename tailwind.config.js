@@ -42,6 +42,8 @@ module.exports = {
         "multi-chanel": "url('../public/assets/images/multi-chanel-bg.webp')",
         "lead-gen": "url('../public/assets/images/lead-gen-bg.webp')",
         "ecommerce": "url('../public/assets/images/ecommerce-bg.webp')",
+        "learn-from":"url('../public/assets/images/learn-from.webp')",
+        "ready-to":"url('../public/assets/images/ready-goals.webp')",
       },
       fontFamily: {
         sohne: ["Sohne Schmal", "sans-serif"],

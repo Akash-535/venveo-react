@@ -1,4 +1,4 @@
-import { AmberBookIcon, EnoughLeadIcon, EnoughTrafficIcon, EntrepreneurIcon, FarnsWorthIcon, ForbesIcon, FortuneIcon, IncIcon, MyCplIcon, MyMarkatingIcon, UsLbmIcon, WsjIcon } from "./icons"
+import { AmberBookIcon, BuildBrandIcon, EnoughLeadIcon, EnoughTrafficIcon, EntrepreneurIcon, EyeIcon, FacebookIcon, FarnsWorthIcon, ForbesIcon, FortuneIcon, GetCustomersIcon, ImproveIcon, IncIcon, InstagramIcon, LinkedInIcon, MyCplIcon, MyMarkatingIcon, TrackResultIcon, TwitterIcon, UsLbmIcon, WsjIcon, YoutubeIcon } from "./icons"
 
 export const HEADER_LIST = [
     {
@@ -201,3 +201,92 @@ export const THREE_CARDS_LIST = [
         button: "Read More"
     }
 ]
+
+
+export const FOOTER_LIST = [
+    {
+      title: "how we help",
+      list: "Drive More Awareness",
+      listTwo: "Get more Customers",
+      listThree: "Build Your Brand",
+      listFour: "Improve your reputation",
+      listFive: "Track Results",
+    },
+    {
+      title: "who we help",
+      list: "Digital Advertising",
+      listTwo: "Search Engine Ranking",
+      listThree: "Content Marketing",
+      listFour: "Programic Advertising",
+      listFive: "Email Marketing",
+    },
+    {
+      title: "why venveo",
+      list: "About Us",
+      listTwo: "Careers",
+      listThree: "Growth Studies",
+      listFour: "Testimonials",
+    },
+    {
+      title: "resources",
+      list: "Articles",
+      listTwo: "News",
+      listThree: "Webinars",
+      listFour: "EBooks",
+      listFive: "Podcast",
+    },
+  ];
+
+  export const FOOTER_MOBILE_LIST = [
+    {   
+        icon: <EyeIcon/>,
+        iconTwo:<GetCustomersIcon/>,
+        iconThree:<BuildBrandIcon/>,
+        iconFour:<ImproveIcon/>,
+        iconFive:<TrackResultIcon/>,
+      title: "How We Help ▼",
+      list: "Drive More Awareness",
+      listTwo: "Get More Customers",
+      listThree: "Build Your Brand",
+      listFour: "Improve your reputation",
+      listFive: "Track Results",
+    },
+    {
+      title: "Who We Help ▼",
+      list: "Digital Advertising",
+      listTwo: "Search Engine Ranking",
+      listThree: "Content Marketing",
+      listFour: "Programic Advertising",
+      listFive: "Email Marketing",
+    },
+    {
+      title: "Why Venveo ▼",
+      list: "About Us",
+      listTwo: "Careers",
+      listThree: "Growth Studies",
+      listFour: "Testimonials",
+    }
+  ];
+
+  export const MEDIA_ICON_LIST = [
+    {
+        icon: <FacebookIcon/>,
+        link: "https://www.facebook.com",
+    },
+    {
+        icon: <InstagramIcon/>,
+        link: "https://www.instagram.com",
+    },
+    {
+        icon: <TwitterIcon/>,
+        link: "https://www.twitter.com",
+    },
+    {
+        icon: <LinkedInIcon/>,
+        link: "https://www.linkedin.com",
+    },
+    {
+        icon: <YoutubeIcon/>,
+        link: "https://www.youtube.com",
+    },
+  ]

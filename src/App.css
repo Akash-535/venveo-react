@@ -1,63 +1,66 @@
-.button-arrow:hover svg{
-    animation: button 2s infinite;
-    }
-@keyframes button {
-    0% {
-        transform: translateX(0px);
-    }
-    50%{
-        transform: translateX(20px);
-    }
-    100% {
-        transform: translateX(0px); 
-                }
+.button-arrow:hover svg {
+  animation: button 2s infinite;
 }
-.featured-logos{
-    animation:slide-right 5s infinite;
-    }
-    .swiper-button-next:after{
-        display: none !important;
-      }
-      .swiper-button-prev:after{
-        display: none !important;
-      }
-      
-      .swiper-button-next{
-        right: 0 !important;
-      }
-      .swiper-button-prev{
-        left: 0 !important;
-      }
-      
-      .swiper-slide {
-          opacity: 0.2;
-          transition: opacity 0.3s ease;
-      }
-      
-      .swiper-slide-active {
-          opacity: 1;
-      }
-      
-      .swiper-pagination-clickable .swiper-pagination-bullet{
-      background-color: white !important;
-      border-radius: 0 !important;
-      }
-.swiper-btn svg{
+@keyframes button {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(15px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.featured-logos {
+  animation: slide-right 6s linear infinite alternate;
+}
+.swiper-button-next:after {
+  display: none !important;
+}
+.swiper-button-prev:after {
+  display: none !important;
+}
+
+.swiper-button-next {
+  right: 0 !important;
+}
+.swiper-button-prev {
+  left: 0 !important;
+}
+
+.swiper-slide {
+  opacity: 0.2;
+  transition: opacity 0.3s ease;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background-color: white !important;
+  border-radius: 0 !important;
+}
+.swiper-btn svg {
   height: 10px !important;
   width: 10px !important;
-  margin:56px 32px ;
+  margin: 56px 32px;
 }
-@media (max-width:768px) {
-    @keyframes slide-right {
+.media-link:hover svg path {
+  fill: #d2f038;
+}
+@media (max-width: 768px) {
+  @keyframes slide-right {
     0% {
-      transform: translateX(10%);
+      transform: translateX(100%);
     }
 
     100% {
-      transform: translateX(-99%);
+      transform: translateX(-150%);
     }
   }
-  .swiper-btn svg{
-    margin:40px 18px ;
+  .swiper-btn svg {
+    margin: 40px 18px;
   }
 }
