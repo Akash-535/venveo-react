@@ -31,7 +31,7 @@ const ThreeCards = () => {
                         </div>
                     </div>
                 ))}</div>
-            <button className='text-xl text-center flex items-center justify-center  w-full mx-auto gap-2 text-custom-sm leading-custom-xs font-maisonMedium pt-9 lg:hidden' onClick={toggleShowMore}>{(showMore ? "Less More Resources" : "Show More Resources")} <span className={`${showMore ? "rotate-180" : ""} duration-300 ease-linear`}>▼</span></button>
+            <button className='text-xl text-center flex items-baseline justify-center w-full mx-auto gap-1 text-custom-sm leading-custom-xs font-maisonMedium pt-9 lg:hidden' onClick={toggleShowMore}>{(showMore ? "Less More Resources" : "Show More Resources")} <span className={`${showMore ? "rotate-180" : ""} duration-300 ease-linear text-[6px]`}>▼</span></button>
         </div>
     )
 }

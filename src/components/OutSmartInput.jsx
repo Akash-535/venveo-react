@@ -2,7 +2,7 @@ import React from 'react'
 
 const OutSmartInput = () => {
     return (
-        <div className='mt-32 bg-out-side w-full h-full py-[72px] justify-center flex bg-cover bg-no-repeat bg-center'>
+        <div className='mt-32 bg-out-side w-full h-full py-[72px] justify-center flex bg-cover bg-no-repeat bg-center max-lg:mt-28 max-md:mt-20 max-lg:py-16 max-md:pt-9 max-md:pb-11'>
             <div className='flex justify-between w-full relative max-w-[1100px] mx-auto max-lg:flex-col max-lg:px-4'>
                 <div className='flex flex-col  justify-center'>
                     <p className='max-lg:hidden text-custom-sm  leading-custom-xs'>Get a free competitive analysis on your market</p>

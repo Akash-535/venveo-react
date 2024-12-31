@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { HEADER_LIST } from "../utils/helper";
 import { ButtonArrow, LogoIcon, SearchIcon } from "../utils/icons";
 
@@ -14,7 +14,20 @@ const Header = () => {
         setOpen(!open);
         setActiveIndex(null);
     };
-
+  useEffect(() => {
+        const toggleSidebar = () => {
+            if (open && window.innerWidth < 1024) {
+                document.body.classList.add("overflow-hidden");
+            } else {
+                document.body.classList.remove("overflow-hidden");
+            }
+        };
+        toggleSidebar();
+        window.addEventListener("resize", toggleSidebar);
+        return () => {
+            window.removeEventListener("resize", toggleSidebar);
+        };
+    }, [open]);
     return (
         <div className="max-w-[1920px] mx-auto relative z-10">
             <nav className="flex justify-between lg:items-start items-center pl-6 max-lg:px-4">

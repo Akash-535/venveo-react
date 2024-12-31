@@ -13,7 +13,7 @@
   }
 }
 .featured-logos {
-  animation: slide-right 6s linear infinite alternate;
+  animation: slide-right 6s linear infinite;
 }
 .swiper-button-next:after {
   display: none !important;

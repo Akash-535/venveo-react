@@ -79,7 +79,7 @@ const GrowthPartner = () => {
     };
 
     return (
-        <div className='pt-[113px] pb-[60px]  max-lg:pt-20 max-md:pt-16 max-sm:py-10 max-sm:px-4'>
+        <div className='pt-[113px] pb-[60px]  max-lg:pt-20 max-md:pt-16 max-sm:py-16 max-sm:px-4'>
             <div className='text-center flex flex-col gap-1.5'>
                 <Heading text="The growth partner " />
                 <Discription text='you’ve been looking for.' />
