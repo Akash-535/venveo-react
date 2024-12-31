@@ -48,7 +48,7 @@ const Footer = () => {
                       </form>
                   </div>
               </div>
-              <div className='pt-20 w-full flex justify-between items-end px-4 max-lg:hidden'>
+              <div className='pt-20 w-full flex justify-between items-end px-4 max-[769px]:hidden'>
                 <div>
                     <a href="#" className='pb-0.5'><FooterVenveoIcon/></a>
                     <p className='max-w-[415px] text-white text-[13px] font-normal font-maisonLight leadin-[153%] pt-5'>Venveo is an award-winning digital marketing <span className='block'>solutions provider. Since 2003.</span>
@@ -78,7 +78,7 @@ const Footer = () => {
                     </div>
                 </div>
               </div>
-              <div className='lg:hidden pt-16 justify-center items-center flex flex-col'>
+              <div className='min-[769px]:hidden pt-16 justify-center items-center flex flex-col'>
               <div className='flex gap-14 flex-col text-center'>
                     <ul>
                         <p className='uppercase text-sm leading-[108%] text-white font-maisonMedium font-medium'>Visit</p>
