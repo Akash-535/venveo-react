@@ -272,21 +272,26 @@ export const FOOTER_LIST = [
     {
         icon: <FacebookIcon/>,
         link: "https://www.facebook.com",
+        lable:"learn more on Facebook"
     },
     {
         icon: <InstagramIcon/>,
         link: "https://www.instagram.com",
+         lable:"learn more on Instagram"
     },
     {
         icon: <TwitterIcon/>,
         link: "https://www.twitter.com",
+         lable:"learn more on Twitter"
     },
     {
         icon: <LinkedInIcon/>,
         link: "https://www.linkedin.com",
+         lable:"learn more on Linkedin"
     },
     {
         icon: <YoutubeIcon/>,
         link: "https://www.youtube.com",
+         lable:"learn more on You-Tube"
     },
   ]

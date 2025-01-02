@@ -9,9 +9,9 @@ const SatisfiedClient = () => {
         <div className='pt-[177px] max-lg:px-4 max-lg:pt-32 max-md:pt-24 max-sm:pt-16'>
             <div className='text-center'>
                 <Discription text="Driving digital revenue for over" />
-                <div className='relative pt-1.5'>
+                <div className='relative pt-1.5 max-w-[560px] mx-auto'>
                     <Heading text="1,400+ satisfied clients." />
-                    <img className='absolute left-[37%] -translate-x-1/2 pt-2.5 max-md:hidden' src="./assets/images/red-line.webp" alt="" />
+                    <img className='absolute left-[12%] -translate-x-1/2 pt-2.5 max-md:hidden' src="./assets/images/red-line.webp" alt="" />
                 </div>
             </div>
             <div

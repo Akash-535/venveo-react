@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { HEADER_LIST } from "../utils/helper";
 import { ButtonArrow, LogoIcon, SearchIcon } from "../utils/icons";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -32,9 +33,9 @@ const Header = () => {
         <div className="max-w-[1920px] mx-auto relative z-10">
             <nav className="flex justify-between lg:items-start items-center pl-6 max-lg:px-4">
                 {/* Logo */}
-                <a href="/" className="pt-[30px] max-xl:pt-4">
+                <Link to="/" className="pt-[30px] max-xl:pt-4">
                     <LogoIcon />
-                </a>
+                </Link>
                 <div className="flex">
                     <div
                         className={`flex gap-[42px] max-lg:fixed max-lg:left-0 max-lg:h-full max-lg:w-full max-lg:flex-col lg:bg-white lg:py-7 px-10 max-lg:bg-gray-800 max-lg:duration-300 max-lg:justify-center max-lg:items-center z-10 max-lg:text-white ${open ? 'max-lg:top-0' : 'max-lg:top-full'}`}
@@ -50,25 +51,26 @@ const Header = () => {
                                 {item.subMenu && activeIndex === index && (
                                     <div className="absolute left-0 mt-2 w-48 z-[52] bg-white text-gray-800 rounded shadow-lg">
                                         {item.subMenu.map((subItem, subIndex) => (
-                                            <a
+                                            <Link
                                                 key={subIndex}
-                                                href="#"
+                                               to="#"
+                                                aria-label='click to about more'
                                                 onClick={() => setActiveIndex(null)}
                                                 className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200 font-maisonMedium"
                                             >
                                                 {subItem}
-                                            </a>
+                                            </Link>
                                         ))}
                                     </div>
                                 )}
                             </div>
                         ))}
-                        <div className="max-lg:hidden cursor-pointer hover:scale-110 duration-300 ease-linear">
+                        <div className="max-lg:hidden cursor-pointer hover:scale-110 duration-300 ease-linear searchs">
                             <SearchIcon />
                         </div>
                         <form action="" className="w-full flex justify-between items-center lg:hidden max-w-40 bg-Platinum py-1.5 px-2.5">
                             <input type="text" placeholder="Search" className="!outline-none !bg-transparent w-full placeholder:text-gray-400 text-gray-400" required />
-                            <button>
+                            <button >
                                 <SearchIcon />
                             </button>
                         </form>

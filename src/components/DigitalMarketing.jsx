@@ -42,7 +42,7 @@ const DigitalMarketing = () => {
                         </div>
                     ))}
                 </div>
-                <div className="flex flex-wrap gap-x-[66px] gap-y-[57px] max-md:gap-6 justify-center pt-[88px] max-lg:pt-12 max-md:pt-10 max-sm:mx-4 max-w-[1440px] mx-auto lg:hidden">
+                <div className="flex flex-wrap max-md:gap-6 justify-center pt-[88px] max-lg:pt-12 max-md:pt-10 max-sm:mx-4 max-w-[1440px] mx-auto lg:hidden gap-y-10 max-sm:gap-y-7">
                     {displayedCards.map((obj, i) => (
                         <div
                             key={i}

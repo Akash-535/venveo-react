@@ -6,7 +6,7 @@ import Discription from '../common/Discription';
 
 const GrowthPartner = () => {
     const [searchParams, setSearchParams] = useSearchParams();
-    const [activeTab, setActiveTab] = useState(3);
+    const [activeTab, setActiveTab] = useState(1);
 
     const tabNames = ['Industry Expertise', 'ROI Focused', 'Proprietary Technology'];
 
@@ -20,7 +20,7 @@ const GrowthPartner = () => {
 
     const handleTabClick = (tabIndex) => {
         setActiveTab(tabIndex);
-        setSearchParams({ tab: tabNames[tabIndex - 1] });
+        setSearchParams({ tab: tabNames[tabIndex - 1].toLowerCase().replace(/\s/g, '-') });
     };
 
     const renderTabContent = () => {

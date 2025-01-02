@@ -1,15 +1,28 @@
-.button-arrow:hover svg {
+.button-arrow:hover svg,
+.searchs:hover svg {
   animation: button 2s infinite;
 }
 @keyframes button {
-  0% {
-    transform: translateX(0px);
+  0%,
+  100% {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
   }
   50% {
-    transform: translateX(15px);
+    stroke-dashoffset: 0;
   }
+}
+.go-line {
+  animation: to-line 2s infinite;
+}
+@keyframes to-line {
+  0%,
   100% {
-    transform: translateX(0px);
+    stroke-dashoffset: -350;
+    stroke-dasharray: 350;
+  }
+  50% {
+    stroke-dashoffset: 0;
   }
 }
 .featured-logos {

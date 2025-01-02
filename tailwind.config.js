@@ -11,6 +11,7 @@ module.exports = {
         "Platinum": "#E8E8E8",
         "pacific-blue": "#00AFB5",
         "watermelon": "#FF4242",
+        "pale-grey":"#FFFFFF99"
       },
       fontSize: {
         "custom-sm": "15px",

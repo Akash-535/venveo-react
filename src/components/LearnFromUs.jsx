@@ -3,7 +3,8 @@ import { ButtonArrowIcon } from '../utils/icons'
 
 const LearnFromUs = () => {
     return (
-        <div className='pt-[109px] max-lg:pt-20 max-md:pt-16 max-sm:pt-[50px]'>
+        <div className='pt-[109px] max-lg:pt-20 max-md:pt-16 max-sm:pt-[50px] relative'>
+             <img className='absolute w-full left-0 top-1/2 max-lg:hidden' src="./assets/images/digital-line.webp" alt="double-line" />
         <h1 className='text-[80px] text-center font-bold font-sohne leading-86 '>Learn from us.</h1>
         <p className='leading-[133%] text-[15px] text-center font-maisonRegular mt-[13px] '>Digital marketing resources from Venveo to help you grow.</p>
         <button className='flex mx-auto gap-2.5 items-center mt-9 text-custom-sm font-maisonMedium leading-custom-xl max-md:mt-8'>

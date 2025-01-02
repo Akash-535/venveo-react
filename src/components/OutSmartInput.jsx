@@ -1,4 +1,5 @@
 import React from 'react'
+import { GoSmLine, GoToLine } from '../utils/icons'
 
 const OutSmartInput = () => {
     return (
@@ -10,8 +11,8 @@ const OutSmartInput = () => {
                     <p className='max-lg:hidden text-custom-3xl font-light font-maisonLight max-md:text-3xl'>Outsmart your competition</p>
                     <p className='lg:hidden text-custom-3xl font-light font-maisonLight max-md:text-3xl'>Start earning more money now</p>
                 </div>
-                <img className='max-lg:hidden absolute left-[45%] top-1/2 ' src="./assets/images/input-arrow.webp" alt="input-arrow" />
-                <img className='lg:hidden absolute left-[47%] top-[22%] ' src="./assets/images/input-lg-arrow.webp" alt="input-arrow" />
+                <div className='max-lg:hidden absolute left-[45%] top-1/2 go-line'><GoToLine/></div>
+                <div className='lg:hidden absolute left-[47%] top-[22%] go-line'><GoSmLine/></div>
                 <form className='flex items-center border-2 rounded-[50px] bg-white pr-[26px] pl-7 max-w-[448px] w-full max-sm:px-6 py-[22px] max-lg:mx-auto max-lg:mt-20'>
                     <input
                         type='text'

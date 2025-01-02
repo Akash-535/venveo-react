@@ -11,8 +11,9 @@ import Discription from '../common/Discription';
 
 const ActualResult = () => {
     return (
-        <div className="bg-cover bg-no-repeat bg-center bg-actual-result flex flex-col justify-center items-center overflow-hidden">
-            <div className="container max-w-[1920px] mx-auto relative">
+        <div className="bg-cover bg-no-repeat bg-center bg-actual-result flex flex-col justify-center items-center relative">
+            <img className='absolute -bottom-10 w-full left-0 max-md:-bottom-4 max-sm:-bottom-2' src="./assets/images/swiper-bottom-line.webp" alt="line" />
+            <div className="container max-w-[1920px] mx-auto relative overflow-hidden">
                 <div className="text-center pt-[119px] max-xl:pt-20 max-lg:pt-14 max-md:pt-10 max-sm:pt-6 px-4 md:px-6 lg:px-0">
                     <h3 className="text-white font-maisonLight font-light text-lg sm:text-xl md:text-2xl lg:text-custom3xl leading-6 md:leading-[30px]">
                         Actual businesses.
@@ -28,7 +29,7 @@ const ActualResult = () => {
                 <div className="mx-auto flex items-center justify-center w-full pt-10 md:pt-[81px] px-4 sm:px-6 max-w-full lg:px-0">
                     <Swiper
                         slidesPerView={1}
-                        spaceBetween={50} // Reduced spaceBetween for better centering
+                        spaceBetween={50} 
                         centeredSlides={true}
                         navigation={{
                             nextEl: '.swiper-button-next',

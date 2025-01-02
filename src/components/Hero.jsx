@@ -30,7 +30,7 @@ const Hero = () => {
                         <input
                             type='text'
                             placeholder='Enter Your Website' required
-                            className='bg-transparent w-full h-full py-[22px] sm:pl-[34.27px] max-sm:py-[22px] outline-none text-custom-sm placeholder:text-custom-sm leading-5 text-white text-opacity-40 placeholder:font-maisonRegular font-maisonRegular'
+                            className='bg-transparent w-full h-full py-[22px] sm:pl-[34.27px] max-sm:py-[22px] outline-none text-custom-sm placeholder:text-custom-sm leading-5 text-pale-grey placeholder:text-pale-grey placeholder:font-maisonRegular font-maisonRegular'
                         />
                         <button className='font-maisonMedium text-[15px] leading-5 text-white'>
                             Analyze
